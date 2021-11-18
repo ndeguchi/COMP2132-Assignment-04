@@ -1,0 +1,167 @@
+/* Natsu Deguchi */
+
+
+/*
+-----------------------
+HTML selectors
+-----------------------
+
+*/
+
+body{
+    background-color: #457B9D;
+    font-family:calibri;
+    padding:10px;
+    font-size:15px;
+}
+
+
+footer{
+    background-color:#1D3557;
+    color:#ffffff;
+    padding:3px;
+    border-color:#DCDCDC;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+}
+
+ul{
+    list-style-type:square;
+    padding-left: 20px;
+    
+}
+
+ol{
+    padding-left: 20px;
+}
+
+li{
+    display: inline;
+}
+
+
+
+/*
+--------------------------------
+CLASS selectors 
+--------------------------------
+*/
+
+.content{
+    background-color:#A8DADC;
+    color:gray;
+    padding:7px;
+    position:relative;
+    width: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.content2{
+    background-color:#F1FAEE;
+    color:gray;
+    border-style:solid;
+    border-color:#E63946;	
+    position:relative;
+    width: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+.under {
+border-bottom: solid 3px #1D3557;
+}
+
+.intro{
+    color: #1D3557;
+}
+
+.important{
+    color: #E63946;
+    background-color: #A8DADC;
+    border-style: double;
+    padding: 5px;
+}
+
+.important2{
+    color: #E63946;
+    /*border-bottom: solid 2px #E63946;*/
+}
+
+.botton{
+    color: #1D3557;
+}
+
+.botton:hover{
+    color: #ffffff;
+    background-color: #1D3557;
+
+}
+
+.p1{
+    color: #457B9D;
+}
+
+.card{
+    border:solid 1px var(--main-color-hover);
+    border-radius: 15px;
+    max-width:120px;
+    
+    align-self: center;
+    padding:2px;
+    margin:5px;
+  
+    box-shadow: 3px 3px 3px 0px rgb(36, 36, 36);
+    
+}
+
+.hand{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding:0px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    
+    border:solid 3px var(--main-color-hover);;
+
+}
+
+.profile{
+    border-radius: 90px;
+    border:solid 3px var(--main-color);    
+    box-shadow: 2px 2px 2px 0px rgb(85, 85, 85);
+}
+
+/*
+--------------------------------
+ID selectors 
+--------------------------------
+*/
+
+#wrap{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin: auto;
+    position:relative;
+    display:block;
+}
+
+#heading{
+    background-color:#1D3557;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1px;
+   
+}
+
+
